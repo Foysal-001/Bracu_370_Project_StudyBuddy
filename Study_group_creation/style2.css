@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+.page-box {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.search-form button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #444;
+}
+
+.hint,
+.not-found {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+}
+
+.result-title {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.group-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 15px;
+    background: #fafafa;
+}
+
+.group-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.group-card p {
+    margin: 8px 0;
+}
+
+.description {
+    color: #555;
+}
+
+.join-btn {
+    margin-top: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background: #444;
+}
+
+@media (max-width: 600px) {
+    .page-box {
+        margin: 25px 12px;
+        padding: 20px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-form button {
+        width: 100%;
+    }
+}
