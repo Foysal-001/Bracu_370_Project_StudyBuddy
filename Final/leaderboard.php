@@ -26,6 +26,7 @@ $result = mysqli_query($database, $query);
         +10 points for creating a group<br>
         +5 points when admin approves a join request<br>
         +20 points when admin merges groups<br>
+        -5 points if user gets rejected to join a group<br>
         Reject penalty is stored in the user table
     </p>
 
